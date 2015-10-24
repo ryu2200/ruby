@@ -1,0 +1,4 @@
+
+array=["a","b","c"]
+print(array[0],"\n")
+print "konn¥n"
