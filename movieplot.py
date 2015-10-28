@@ -18,11 +18,10 @@ if(argc!=2):
 	quit()
 #argvs[0]はpyファイル
 f=open(argvs[1])
-i=0
 line=f.readline()
 while line:
 	x.append(int(line[0]))
-	y.append(int(line[2]))
+	y.append(int(line[2],10))
 	#次の行を読み込む
 	line=f.readline()
 f.close
