@@ -16,7 +16,7 @@ print u"個数は%sです"%argc
 if(argc!=2):
 	print "Usage:invalid"
 	quit()
-#argvs[0]はpyファイル
+#argvs[0]はpyファイル"qqq
 f=open(argvs[1])
 i=0
 line=f.readline()
