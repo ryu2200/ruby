@@ -16,12 +16,12 @@ print ("個数は",argc)
 if(argc!=2):
 	print ("Usage:invalid")
 	quit()
-#argvs[0]はpyファイル"qqq
+#argvs[0]はpyファイル
 f=open(argvs[1])
 line=f.readline()
 while line:
 	x.append(int(line[0]))
-	y.append(int(line[2],10))
+	y.append(int(line[2]))
 	#次の行を読み込む
 	line=f.readline()
 f.close
